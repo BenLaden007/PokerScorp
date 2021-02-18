@@ -1873,7 +1873,7 @@ function LocalPlayerChatted(msg)
 		notify("Set all to off.")
 	end
 	if command("brag") then
-		chat("Get Scorpion Admin! Best PL Admin Script! Only Free! Made by vIesbain aka Vapin' Cat 7950")
+		chat("Snoop, or Tim, is the prettiest and strongest man on earth im his number one fan")
 		notify("Bragged to all skids.")
 	end
 	if command("closeroblox") or command("endrbx") or command('leave') or command('quit') then
